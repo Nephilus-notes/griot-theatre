@@ -17,13 +17,20 @@
         <div class="name">
             <H2>Griot Theater</H2>
         </div>
-        <div class="nav-flex">
-            <a href="">Home</a>
-            <a href="">Featured</a>
-            <a href="">Our Actors</a>
-            <a href="">Mission</a>
-            <a href="">Contact</a>
+        <div class="header-dropdown">
+            <!-- div inside or after the button -->
+            <!-- <button class="button">April 2020</button> -->
+            <label for="navToggle" class="menu-button name">Griot Theater</label>
+            <input type="checkbox" class="nav-toggle" name="" id="navToggle">
+            <div class="nav-flex">
+                <a href="">Home</a>
+                <a href="">Featured</a>
+                <a href="">Our Actors</a>
+                <a href="">Mission</a>
+                <a href="">Contact</a>
+            </div>
         </div>
+
     </header>
     <main>
         <section class="hero">
@@ -32,7 +39,9 @@
         <section class="content">
             <!-- Make this div into a dropdown? addbutton, etc-->
             <div class="calendar">
-                <button class="button">April 2020</button>
+                <!-- div inside or after the button -->
+                <!-- <button class="button">April 2020</button> -->
+                <label for="calendarToggle" class="button">April 2020</label>
             </div>
             <div class="cards-flex">
                 <div class="card">
@@ -87,9 +96,14 @@
         </section>
     </main>
     <footer>
-        
+
         <div class="footer-cards-flex">
-            <img src="/assets/images/map.png" alt="" class="map">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.919103674056!2d-87.95864968454283!3d42.386869779185076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f8e22f0ae3079%3A0x845a1fd4851ee5c9!2sRainforest%20Cafe!5e0!3m2!1sen!2sus!4v1667488968870!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             <div class="footer-card">
                 <h3>Info</h3>
                 <p>Chicago, IL 60031 United States</p>
