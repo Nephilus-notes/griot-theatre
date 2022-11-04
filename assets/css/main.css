@@ -119,6 +119,7 @@ header .menu-button {
         font-size: clamp(3rem, 2.5vw, 7rem);
         line-height: 112px;
         text-align: center;
+        margin: 0
     }
 
     /* HERO STYLINGS END HERE */
